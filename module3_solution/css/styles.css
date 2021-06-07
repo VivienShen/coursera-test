@@ -1,0 +1,122 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: #ffffff;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 2px solid #000;
+}
+
+.navbar-brand h1 {
+	color: #000;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom:0;
+	line-height: .75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -42px;
+}
+
+.navbar-header {
+	
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+.navbar-default .navbar-toggle {
+	border: 2px solid #000;
+}
+
+
+/* END OF HEADER */
+
+/* MENU PAGE */
+
+h1 {
+	color: #000;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.dish-title {
+	margin-top: 0px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.dish-description {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.col-xs-12 {
+	background-color: darkgrey;
+	padding: 8px;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+	#header-nav {
+		border-bottom: 0;
+	}
+	.navbar-brand {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.navbar-header {
+		border-bottom: 2px solid #000;
+	}
+	#collapsable-nav {
+		background-color: #fff;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+		color: #000;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	li {
+		border-bottom: 2px solid #000;
+		background-color: lightgrey;
+	}
+
+	li:hover {
+		background-color: white;
+	}
+
+	#nav-list {
+		margin-top: 0px;
+	}
+	/* End Header */
+
+	/* Menu Page */
+	.vertical-center-row {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.dish-title {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
